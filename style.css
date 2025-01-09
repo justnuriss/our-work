@@ -1,3 +1,33 @@
+
+header{
+    margin: 0 auto;
+    width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(238, 114, 213, 0.784);
+    border-radius: 15%;
+    border:2px solid rgba(150, 51, 153, 0.845);
+}
+.container{
+    display: flex;
+    align-items: center;
+    gap: 500px;
+}
+
+.list{
+    display: flex;
+    gap: 30px;
+}
+
+.list h1{
+    color: rgb(243, 247, 247);
+
+}
+.logo h1{
+color: rgb(96, 17, 88);
+}
+
 footer {
     margin: 0 auto;
     width: 1400px;
@@ -56,3 +86,4 @@ footer {
   a {
     color: rgb(38, 38, 38);
   }
+
