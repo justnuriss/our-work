@@ -1,4 +1,101 @@
 
+footer{
+  margin: 0 auto;
+  width: 1440px;
+background: rgb(245, 244, 244);
+margin-top: 20px;
+padding: 20px;
+}
+.footer-content{
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  padding: 20px;
+}
+.footer-input{
+  display: flex;
+  align-items: center;
+}
+.footer-input input{
+  /* 200 */
+border: 1px solid rgb(221, 219, 220);
+/* white */
+background: rgb(255, 255, 255);
+width: 388px;
+height: 53px;
+text-align: center;
+
+}
+.footer-input button{
+  /* 500 */
+border: 1px solid rgb(38, 38, 38);
+/* 500 */
+background: rgb(38, 38, 38);
+width: 52px;
+height: 53px;
+color: white;
+}
+.footer-text h4{
+/* Text/400 - demi */
+color: rgb(38, 38, 38);
+font-family: Maison Neue;
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0.2px;
+text-align: left;
+}
+.footer-text p{
+  /* Text/300 */
+color: rgb(115, 115, 115);
+font-family: Maison Neue;
+font-size: 14px;
+font-weight: 400;
+line-height: 16.8px;
+letter-spacing: 1.4px;
+text-align: left;
+}
+
+.award{
+  width: 1440px;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.award-content{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.award-card img{
+  width: 450.67px;
+height: 413px;
+}
+.award-card{
+  gap: 50px;
+}
+.award-card h1{
+  /* Display/200 */
+color: rgb(0, 0, 0);
+font-family: Maison Neue;
+font-size: 27px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 0px;
+text-align: left;
+}
+.award-card button{
+  /* 200 */
+border: 1px solid rgb(221, 219, 220);
+border-radius: 30px;
+width:100px;
+height: 24px;
+/* Text/200 - demi */
+color: rgb(0, 0, 0);
+font-family: Maison Neue;
+font-size: 12px;
+font-weight: 600;
+
 * {
   margin: 0;
   padding: 0;
@@ -35,7 +132,7 @@ line-height: 16px;
 letter-spacing: 0.2px;
 text-align: center;
 }
-/* -------------------------------------------- */
+
 .header {
   display: flex;
   flex-direction: column;
@@ -80,6 +177,44 @@ line-height: 16px;
 letter-spacing: 0.2px;
 text-align: center;
 }
+.edit{
+  width: 1440px;
+  margin: 0 auto;
+}
+.edit-card img{
+  width: 287px;
+height: 380px;
+}
+.edit-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.edit button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+
+/* 500 */
+background: rgb(38, 38, 38);
+width: 240px;
+height: 61px;
+/* Text/300 - demi */
+color: rgb(255, 255, 255);
+font-family: Maison Neue;
+font-size: 14px;
+font-weight: 600;
+line-height: 21px;
+letter-spacing: 0.42px;
+text-align: center;
+margin: 0 auto;
+margin-top: 15px;
+}
+
+.edit h1{
+  /* Display/400 - demi */
 .header-main {
   display: flex;
   justify-content: center;
@@ -175,21 +310,36 @@ justify-content: flex-start;
 align-items: flex-start;
 gap: 148;
 padding: 0px;
-
-
-/* Inside Auto Layout */
-flex: none;
-order: 1;
-flex-grow: 1;
 margin: 0px 148px;
-
-/* Display/400 - demi */
 color: rgb(0, 0, 0);
 font-family: Maison Neue;
 font-size: 40px;
 font-weight: 600;
 line-height: 48px;
 letter-spacing: 0px;
+text-align: center;
+}
+.edit-card h4{
+  /* Text/200 */
+color: rgb(38, 38, 38);
+font-family: Maison Neue;
+font-size: 12px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0.2px;
+text-align: left;
+}
+.edit-card p{
+  /* Text/200 */
+color: rgb(115, 115, 115);
+font-family: Maison Neue;
+font-size: 12px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0.2px;
+text-align: left;
+}
+
 text-align: left;
 }
 .logo {
